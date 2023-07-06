@@ -7,18 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CA6A37D2A488DAD00FF5D86 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6A3792A488DAD00FF5D86 /* Location+CoreDataClass.swift */; };
+		1CA6A37E2A488DAD00FF5D86 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6A37A2A488DAD00FF5D86 /* Location+CoreDataProperties.swift */; };
+		1CA6A37F2A488DAD00FF5D86 /* Event+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6A37B2A488DAD00FF5D86 /* Event+CoreDataClass.swift */; };
+		1CA6A3802A488DAD00FF5D86 /* Event+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6A37C2A488DAD00FF5D86 /* Event+CoreDataProperties.swift */; };
+		1CCF02E02A5787D100922CA8 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF02DF2A5787D100922CA8 /* TagView.swift */; };
+		1CD751122A4FAEA7009297B0 /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD751112A4FAEA7009297B0 /* LocationFetcher.swift */; };
+		1CD751142A4FB0E0009297B0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD751132A4FB0E0009297B0 /* Location.swift */; };
 		1CE047482A4505C900720EAB /* CountdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE047472A4505C900720EAB /* CountdownApp.swift */; };
 		1CE0474A2A4505C900720EAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE047492A4505C900720EAB /* ContentView.swift */; };
 		1CE0474C2A4505CB00720EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE0474B2A4505CB00720EAB /* Assets.xcassets */; };
 		1CE0474F2A4505CB00720EAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE0474E2A4505CB00720EAB /* Preview Assets.xcassets */; };
+		1CE0475B2A45D48600720EAB /* Countdown.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CE047592A45D48600720EAB /* Countdown.xcdatamodeld */; };
+		1CE047722A45DC1300720EAB /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE0476E2A45DC1300720EAB /* Tag+CoreDataClass.swift */; };
+		1CE047732A45DC1300720EAB /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE0476F2A45DC1300720EAB /* Tag+CoreDataProperties.swift */; };
+		1CE047752A45E32000720EAB /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE047742A45E32000720EAB /* DataController.swift */; };
+		1CE047772A45E41500720EAB /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE047762A45E41500720EAB /* PersistenceController.swift */; };
+		1CE0477B2A466A9E00720EAB /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE0477A2A466A9E00720EAB /* ContentViewModel.swift */; };
+		1CE0477D2A466FF000720EAB /* AddEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE0477C2A466FF000720EAB /* AddEventView.swift */; };
+		1CE0477F2A46791F00720EAB /* AddEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE0477E2A46791F00720EAB /* AddEventViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CA6A3792A488DAD00FF5D86 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		1CA6A37A2A488DAD00FF5D86 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		1CA6A37B2A488DAD00FF5D86 /* Event+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Event+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		1CA6A37C2A488DAD00FF5D86 /* Event+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Event+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		1CCF02DF2A5787D100922CA8 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		1CD751112A4FAEA7009297B0 /* LocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
+		1CD751132A4FB0E0009297B0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		1CE047442A4505C900720EAB /* Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE047472A4505C900720EAB /* CountdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownApp.swift; sourceTree = "<group>"; };
 		1CE047492A4505C900720EAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1CE0474B2A4505CB00720EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CE0474E2A4505CB00720EAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CE047552A4508D600720EAB /* Requirements.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Requirements.md; sourceTree = "<group>"; };
+		1CE0475A2A45D48600720EAB /* Countdown.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Countdown.xcdatamodel; sourceTree = "<group>"; };
+		1CE0476E2A45DC1300720EAB /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tag+CoreDataClass.swift"; path = "Countdown/CoreData/Tag+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		1CE0476F2A45DC1300720EAB /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tag+CoreDataProperties.swift"; path = "Countdown/CoreData/Tag+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		1CE047742A45E32000720EAB /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		1CE047762A45E41500720EAB /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		1CE0477A2A466A9E00720EAB /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		1CE0477C2A466FF000720EAB /* AddEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventView.swift; sourceTree = "<group>"; };
+		1CE0477E2A46791F00720EAB /* AddEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +63,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CD7510F2A4FAE85009297B0 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				1CD751102A4FAE92009297B0 /* utils */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		1CD751102A4FAE92009297B0 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				1CD751112A4FAEA7009297B0 /* LocationFetcher.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		1CE0473B2A4505C900720EAB = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +98,14 @@
 		1CE047462A4505C900720EAB /* Countdown */ = {
 			isa = PBXGroup;
 			children = (
+				1CD7510F2A4FAE85009297B0 /* libs */,
+				1CE047792A4664DD00720EAB /* CoreData */,
+				1CE047582A450BCC00720EAB /* Model */,
+				1CE047572A450BBF00720EAB /* ViewModel */,
+				1CE047562A450BB900720EAB /* View */,
 				1CE047472A4505C900720EAB /* CountdownApp.swift */,
-				1CE047492A4505C900720EAB /* ContentView.swift */,
 				1CE0474B2A4505CB00720EAB /* Assets.xcassets */,
+				1CE047552A4508D600720EAB /* Requirements.md */,
 				1CE0474D2A4505CB00720EAB /* Preview Content */,
 			);
 			path = Countdown;
@@ -65,6 +117,49 @@
 				1CE0474E2A4505CB00720EAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CE047562A450BB900720EAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CE047492A4505C900720EAB /* ContentView.swift */,
+				1CE0477C2A466FF000720EAB /* AddEventView.swift */,
+				1CCF02DF2A5787D100922CA8 /* TagView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CE047572A450BBF00720EAB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1CE0477A2A466A9E00720EAB /* ContentViewModel.swift */,
+				1CE0477E2A46791F00720EAB /* AddEventViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1CE047582A450BCC00720EAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CD751132A4FB0E0009297B0 /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CE047792A4664DD00720EAB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1CE047592A45D48600720EAB /* Countdown.xcdatamodeld */,
+				1CA6A3792A488DAD00FF5D86 /* Location+CoreDataClass.swift */,
+				1CA6A37A2A488DAD00FF5D86 /* Location+CoreDataProperties.swift */,
+				1CA6A37B2A488DAD00FF5D86 /* Event+CoreDataClass.swift */,
+				1CA6A37C2A488DAD00FF5D86 /* Event+CoreDataProperties.swift */,
+				1CE0476E2A45DC1300720EAB /* Tag+CoreDataClass.swift */,
+				1CE0476F2A45DC1300720EAB /* Tag+CoreDataProperties.swift */,
+				1CE047742A45E32000720EAB /* DataController.swift */,
+				1CE047762A45E41500720EAB /* PersistenceController.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +190,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					1CE047432A4505C900720EAB = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -137,7 +232,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CCF02E02A5787D100922CA8 /* TagView.swift in Sources */,
+				1CE047772A45E41500720EAB /* PersistenceController.swift in Sources */,
 				1CE0474A2A4505C900720EAB /* ContentView.swift in Sources */,
+				1CD751142A4FB0E0009297B0 /* Location.swift in Sources */,
+				1CD751122A4FAEA7009297B0 /* LocationFetcher.swift in Sources */,
+				1CE0475B2A45D48600720EAB /* Countdown.xcdatamodeld in Sources */,
+				1CE0477B2A466A9E00720EAB /* ContentViewModel.swift in Sources */,
+				1CE0477F2A46791F00720EAB /* AddEventViewModel.swift in Sources */,
+				1CE0477D2A466FF000720EAB /* AddEventView.swift in Sources */,
+				1CE047732A45DC1300720EAB /* Tag+CoreDataProperties.swift in Sources */,
+				1CA6A37F2A488DAD00FF5D86 /* Event+CoreDataClass.swift in Sources */,
+				1CE047752A45E32000720EAB /* DataController.swift in Sources */,
+				1CA6A37E2A488DAD00FF5D86 /* Location+CoreDataProperties.swift in Sources */,
+				1CA6A3802A488DAD00FF5D86 /* Event+CoreDataProperties.swift in Sources */,
+				1CE047722A45DC1300720EAB /* Tag+CoreDataClass.swift in Sources */,
+				1CA6A37D2A488DAD00FF5D86 /* Location+CoreDataClass.swift in Sources */,
 				1CE047482A4505C900720EAB /* CountdownApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,6 +291,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -241,6 +352,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -269,6 +381,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Countdown/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need Your Location To Store Your Event";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +410,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Countdown/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need Your Location To Store Your Event";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,7 +439,7 @@
 				1CE047512A4505CB00720EAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1CE047522A4505CB00720EAB /* Build configuration list for PBXNativeTarget "Countdown" */ = {
 			isa = XCConfigurationList;
@@ -334,9 +448,22 @@
 				1CE047542A4505CB00720EAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1CE047592A45D48600720EAB /* Countdown.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1CE0475A2A45D48600720EAB /* Countdown.xcdatamodel */,
+			);
+			currentVersion = 1CE0475A2A45D48600720EAB /* Countdown.xcdatamodel */;
+			path = Countdown.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1CE0473C2A4505C900720EAB /* Project object */;
 }
